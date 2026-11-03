@@ -1,0 +1,12 @@
+/* Name: Priyansh Singh | Roll No: 2550303020 | Assignment 14 */
+body { font-family: Arial, sans-serif; margin: 16px; }
+.grid, .gallery > div, .grid > div { box-sizing: border-box; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.grid > div, .gallery > div { background: #a8dadc; border: 2px solid #1d3557; padding: 30px 10px; text-align: center; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.dashboard { display: grid; grid-template-columns: 200px 1fr; grid-template-areas: "header header" "sidebar main" "footer footer"; gap: 10px; }
+.dashboard > div { padding: 24px; border: 2px solid #1d3557; }
+.dash-header { grid-area: header; background: #1d3557; color: white; }
+.dash-sidebar { grid-area: sidebar; background: #a8dadc; min-height: 200px; }
+.dash-main { grid-area: main; background: #f1faee; }
+.dash-footer { grid-area: footer; background: #e5e5e5; }

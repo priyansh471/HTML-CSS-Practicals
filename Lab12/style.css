@@ -1,0 +1,7 @@
+/* Name: Priyansh Singh | Roll No: 2550303020 | Assignment 12 */
+body { font-family: Arial, sans-serif; margin: 20px; }
+.box { width: 200px; padding: 20px; border: 5px solid #1d3557; background: #a8dadc; margin-bottom: 16px; }
+.content-box { box-sizing: content-box; }
+.border-box { box-sizing: border-box; }
+.card { background-color: #f1faee; border: 2px solid #1d3557; border-radius: 12px; padding: 16px; max-width: 300px; }
+.scroll-box { height: 120px; overflow: auto; border: 2px solid #333; padding: 0 12px; width: 280px; }

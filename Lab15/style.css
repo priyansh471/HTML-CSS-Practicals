@@ -1,0 +1,19 @@
+/* Name: Priyansh Singh | Roll No: 2550303020 | Assignment 15 */
+body { font-family: Arial, sans-serif; margin: 16px; }
+
+/* Task 1: mobile first - base styles are for phones (cards stack) */
+.card { background: #f1faee; border: 2px solid #1d3557; border-radius: 10px; padding: 12px 16px; margin-bottom: 12px; }
+@media (min-width: 600px) {
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .card { margin-bottom: 0; }
+}
+
+/* Task 2: responsive image */
+img { max-width: 100%; height: auto; }
+
+/* Task 3: rem text sizes */
+.text-page { font-size: 1rem; }
+.text-page h1 { font-size: 1.5rem; }
+@media (min-width: 600px) {
+  .text-page h1 { font-size: 2.5rem; }
+}
