@@ -1,18 +1,39 @@
-# Lab 1: Starting a Git Repository
+# HTML & CSS Development Lab (BCS554)
 
-**Course:** HTML & CSS Development Lab (BCS554) - Invertis University, Bareilly
-**Name:** Priyansh Singh  |  **Roll No:** 2550303020
+# EXPERIMENT NO. 01
 
-**Aim:** Start a Git repository for your lab folder and save your work with commits.
+## 1. Experiment Title
+Starting a Git Repository
 
-## Tasks and files
+## 2. Aim
+To create a Git repository for the lab folder and save work using commits.
+
+## 3. Software / Tools Required
+- Git
+- Git Bash / Command Prompt
+- Visual Studio Code
+- GitHub
+
+## 4. Theory
+Git is a distributed version control system used to track changes in files. A repository is initialised with `git init`, files are staged with `git add`, saved with `git commit`, and the history is viewed with `git log`.
+
+**Concepts:** Git init, config, status, add, commit and log.
+
+## 5. Algorithm / Procedure
+1. Create a folder `html-lab` and open it in the terminal.
+2. Initialise the repository using `git init`.
+3. Set the user name and email using `git config`.
+4. Create `index.html` with an `<h1>` heading.
+5. Check the repository using `git status`.
+6. Stage and commit the file using `git add` and `git commit`.
+7. Add an `<h2>` heading, commit again and view the history using `git log --oneline`.
+
+## 6. Program / Queries / Commands
 | Task | File |
 |------|------|
 | Task 1: git init + git config | `-` |
 | Task 2: index.html, status, add, commit | `index.html` |
 | Task 3: h2 heading, commit, git log | `index.html` |
-
-## Commands to run (in your terminal / VS Code terminal)
 
 ### Task 1
 ```bash
@@ -41,13 +62,22 @@ git commit -m "Add next meeting heading"
 git log --oneline
 ```
 
-> `index.html` in this folder is the final version of the file (h1 + h2).
-> **Submit:** copy of the terminal output of each task (paste it in `output.txt` or take screenshots).
+`index.html` in this folder is the final version of the file (h1 + h2).
 
-## How to run
-Open the HTML file in VS Code and use **Live Server** (or double-click the file to open it in a browser).
+## 7. Input
+A new folder and `index.html` created in the working directory.
 
-## Output screenshot
-Add your screenshot as `images/screenshot.png`, then it will show here:
+## 8. Output
+Terminal output of each task and a webpage showing the final `index.html`.
 
-![Output screenshot](images/screenshot.png)
+Output screenshots: `images/task1.png`, `images/task2.png`, `images/task3.png`
+
+## 9. Result
+Successfully initialised a Git repository, committed changes and viewed the commit history.
+
+## 10. Viva-Voce Questions
+1. What is Git?
+2. What does `git init` do?
+3. What is the use of `git config`?
+4. What is the difference between `git add` and `git commit`?
+5. What does `git log --oneline` show?
